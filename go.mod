@@ -1,4 +1,4 @@
-module github.com/onsi/ginkgo
+module github.com/ptcar2009/ginkgo
 
 require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
