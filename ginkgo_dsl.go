@@ -298,6 +298,11 @@ func Describe(text string, body func()) bool {
 	return true
 }
 
+func And(text string, body func()) bool {
+	global.Suite.PushContainerNode(text, body, types.FlagTypeNone, codelocation.New(1))
+	return true
+}
+
 func Given(text string, body func()) bool {
 	global.Suite.PushContainerNode(text, body, types.FlagTypeNone, codelocation.New(1))
 	return true
