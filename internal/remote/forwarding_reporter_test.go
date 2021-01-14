@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	. "github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/config"
+	. "github.com/ptcar2009/ginkgo/internal/remote"
+	"github.com/ptcar2009/ginkgo/types"
 	. "github.com/onsi/gomega"
 )
 

@@ -14,7 +14,7 @@ const (
 	ginkgoImportPath = "github.com/onsi/ginkgo"
 
 	// tableImportPath is the well-known table extension import path
-	tableImportPath = "github.com/onsi/ginkgo/extensions/table"
+	tableImportPath = "github.com/ptcar2009/ginkgo/extensions/table"
 )
 
 // FromASTFile returns an outline for a Ginkgo test source file

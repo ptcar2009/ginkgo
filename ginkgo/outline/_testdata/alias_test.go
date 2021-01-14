@@ -2,7 +2,7 @@ package example_test
 
 import (
 	fooginkgo "github.com/onsi/ginkgo"
-	footable "github.com/onsi/ginkgo/extensions/table"
+	footable "github.com/ptcar2009/ginkgo/extensions/table"
 )
 
 var _ = fooginkgo.Describe("NodotFixture", func() {

@@ -2,7 +2,7 @@ package books_test
 
 import (
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/example/books"
+	. "github.com/ptcar2009/ginkgo/example/books"
 	. "github.com/onsi/gomega"
 )
 

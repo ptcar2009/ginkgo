@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/leafnodes"
-	"github.com/onsi/ginkgo/types"
+	. "github.com/ptcar2009/ginkgo/internal/leafnodes"
+	"github.com/ptcar2009/ginkgo/types"
 	. "github.com/onsi/gomega"
 
 	"net/http"
@@ -14,8 +14,8 @@ import (
 
 	"time"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	Failer "github.com/onsi/ginkgo/internal/failer"
+	"github.com/ptcar2009/ginkgo/internal/codelocation"
+	Failer "github.com/ptcar2009/ginkgo/internal/failer"
 )
 
 var _ = Describe("SynchronizedAfterSuiteNode", func() {

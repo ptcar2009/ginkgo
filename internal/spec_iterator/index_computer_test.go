@@ -2,7 +2,7 @@ package spec_iterator_test
 
 import (
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/spec_iterator"
+	. "github.com/ptcar2009/ginkgo/internal/spec_iterator"
 	. "github.com/onsi/gomega"
 )
 

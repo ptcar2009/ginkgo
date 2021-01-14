@@ -14,7 +14,7 @@
 ### Features
 - Defer running top-level container nodes until RunSpecs is called [d44dedf]
 - [Document Ginkgo lifecycle](http://onsi.github.io/ginkgo/#understanding-ginkgos-lifecycle)
-- Add `extensions/globals` package (#692) [3295c8f] - this can be helpful in contexts where you are test-driving your test-generation code (see [#692](https://github.com/onsi/ginkgo/pull/692))
+- Add `extensions/globals` package (#692) [3295c8f] - this can be helpful in contexts where you are test-driving your test-generation code (see [#692](https://github.com/ptcar2009/ginkgo/pull/692))
 - Print Skip reason in JUnit reporter if one was provided [820dfab]
 
 ## 1.13.0
@@ -180,7 +180,7 @@
 
 ## 1.4.0 7/16/2017
 
-- `ginkgo` now provides a hint if you accidentally forget to run `ginkgo bootstrap` to generate a `*_suite_test.go` file that actually invokes the Ginkgo test runner. [#345](https://github.com/onsi/ginkgo/pull/345)
+- `ginkgo` now provides a hint if you accidentally forget to run `ginkgo bootstrap` to generate a `*_suite_test.go` file that actually invokes the Ginkgo test runner. [#345](https://github.com/ptcar2009/ginkgo/pull/345)
 - thanks to improvements in `go test -c` `ginkgo` no longer needs to fix Go's compilation output to ensure compilation errors are expressed relative to the CWD. [#357]
 - `ginkgo watch -watchRegExp=...` allows you to specify a custom regular expression to watch.  Only files matching the regular expression are watched for changes (the default is `\.go$`) [#356]
 - `ginkgo` now always emits compilation output.  Previously, only failed compilation output was printed out. [#277]

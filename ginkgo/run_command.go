@@ -12,10 +12,10 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/interrupthandler"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/config"
+	"github.com/ptcar2009/ginkgo/ginkgo/interrupthandler"
+	"github.com/ptcar2009/ginkgo/ginkgo/testrunner"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 func BuildRunCommand() *Command {

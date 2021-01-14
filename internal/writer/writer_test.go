@@ -4,7 +4,7 @@ import (
 	"github.com/onsi/gomega/gbytes"
 
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/writer"
+	. "github.com/ptcar2009/ginkgo/internal/writer"
 	. "github.com/onsi/gomega"
 )
 

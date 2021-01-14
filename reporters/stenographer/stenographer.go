@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 const defaultStyle = "\x1b[0m"

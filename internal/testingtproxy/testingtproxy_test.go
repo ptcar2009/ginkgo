@@ -6,7 +6,7 @@ import (
 
 	"github.com/onsi/gomega/gbytes"
 
-	"github.com/onsi/ginkgo/internal/testingtproxy"
+	"github.com/ptcar2009/ginkgo/internal/testingtproxy"
 )
 
 type messagedCall struct {

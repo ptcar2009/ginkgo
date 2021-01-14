@@ -82,7 +82,7 @@ You'll need the Go command-line tools. Follow the [installation instructions](ht
 ### Global installation
 To install the Ginkgo command line interface:
 ```bash
-go get -u github.com/onsi/ginkgo/ginkgo
+go get -u github.com/ptcar2009/ginkgo/ginkgo
 ```
 Note that this will install it to `$GOBIN`, which will need to be in the `$PATH` (or equivalent). Run `go help install` for more information.
 
@@ -94,13 +94,13 @@ Create (or update) a file called `tools/tools.go` with the following contents:
 package tools
 
 import (
-	_ "github.com/onsi/ginkgo/ginkgo"
+	_ "github.com/ptcar2009/ginkgo/ginkgo"
 )
 
 // This file imports packages that are used when running go generate, or used
 // during the development process but not otherwise depended on by built code.
 ```
-The Ginkgo command can then be run via `go run github.com/onsi/ginkgo/ginkgo`.
+The Ginkgo command can then be run via `go run github.com/ptcar2009/ginkgo/ginkgo`.
 This approach allows the version of Ginkgo to be maintained under source control for reproducible results,
 and is well suited to automated test pipelines.
 

@@ -7,10 +7,10 @@ import (
 	"time"
 
 	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/config"
+	"github.com/ptcar2009/ginkgo/internal/codelocation"
+	"github.com/ptcar2009/ginkgo/reporters"
+	"github.com/ptcar2009/ginkgo/types"
 	. "github.com/onsi/gomega"
 )
 

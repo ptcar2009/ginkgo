@@ -8,7 +8,7 @@ import (
 	"time"
 
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/integration/_fixtures/flags_tests"
+	. "github.com/ptcar2009/ginkgo/integration/_fixtures/flags_tests"
 	. "github.com/onsi/gomega"
 )
 

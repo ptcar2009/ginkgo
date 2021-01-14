@@ -8,7 +8,7 @@ import (
 	"log"
 	"path/filepath"
 
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/ptcar2009/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 )
 

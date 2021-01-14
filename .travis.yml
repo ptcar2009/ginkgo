@@ -15,7 +15,7 @@ install:
   - GO111MODULE="off" go get -v -t ./...
   - GO111MODULE="off" go get golang.org/x/tools/cmd/cover
   - GO111MODULE="off" go get github.com/onsi/gomega
-  - GO111MODULE="off" go install github.com/onsi/ginkgo/ginkgo
+  - GO111MODULE="off" go install github.com/ptcar2009/ginkgo/ginkgo
   - export PATH=$GOPATH/bin:$PATH
 
 script:

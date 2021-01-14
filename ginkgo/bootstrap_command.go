@@ -12,7 +12,7 @@ import (
 
 	"go/build"
 
-	"github.com/onsi/ginkgo/ginkgo/nodot"
+	"github.com/ptcar2009/ginkgo/ginkgo/nodot"
 )
 
 func BuildBootstrapCommand() *Command {

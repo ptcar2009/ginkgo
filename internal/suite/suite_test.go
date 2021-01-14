@@ -4,18 +4,18 @@ import (
 	"bytes"
 
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/internal/suite"
+	. "github.com/ptcar2009/ginkgo/internal/suite"
 	. "github.com/onsi/gomega"
 
 	"math/rand"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	Failer "github.com/onsi/ginkgo/internal/failer"
-	Writer "github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/config"
+	"github.com/ptcar2009/ginkgo/internal/codelocation"
+	Failer "github.com/ptcar2009/ginkgo/internal/failer"
+	Writer "github.com/ptcar2009/ginkgo/internal/writer"
+	"github.com/ptcar2009/ginkgo/reporters"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 var _ = Describe("Suite", func() {

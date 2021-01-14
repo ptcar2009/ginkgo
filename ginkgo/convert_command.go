@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/onsi/ginkgo/ginkgo/convert"
+	"github.com/ptcar2009/ginkgo/ginkgo/convert"
 )
 
 func BuildConvertCommand() *Command {

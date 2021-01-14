@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/ginkgo/testrunner"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/ptcar2009/ginkgo/ginkgo/testrunner"
+	"github.com/ptcar2009/ginkgo/ginkgo/testsuite"
 	. "github.com/onsi/gomega"
 )
 

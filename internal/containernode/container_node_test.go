@@ -3,14 +3,14 @@ package containernode_test
 import (
 	"math/rand"
 
-	"github.com/onsi/ginkgo/internal/leafnodes"
+	"github.com/ptcar2009/ginkgo/internal/leafnodes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/onsi/ginkgo/internal/codelocation"
-	. "github.com/onsi/ginkgo/internal/containernode"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/internal/codelocation"
+	. "github.com/ptcar2009/ginkgo/internal/containernode"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 var _ = Describe("Container Node", func() {

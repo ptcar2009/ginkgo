@@ -2,7 +2,7 @@ package example_test
 
 import (
 	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
+	. "github.com/ptcar2009/ginkgo/extensions/table"
 )
 
 var _ = Describe("NormalFixture", func() {

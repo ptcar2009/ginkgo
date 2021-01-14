@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/internal/codelocation"
-	"github.com/onsi/ginkgo/internal/global"
-	"github.com/onsi/ginkgo/internal/remote"
-	"github.com/onsi/ginkgo/internal/testingtproxy"
-	"github.com/onsi/ginkgo/internal/writer"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/reporters/stenographer"
-	colorable "github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/config"
+	"github.com/ptcar2009/ginkgo/internal/codelocation"
+	"github.com/ptcar2009/ginkgo/internal/global"
+	"github.com/ptcar2009/ginkgo/internal/remote"
+	"github.com/ptcar2009/ginkgo/internal/testingtproxy"
+	"github.com/ptcar2009/ginkgo/internal/writer"
+	"github.com/ptcar2009/ginkgo/reporters"
+	"github.com/ptcar2009/ginkgo/reporters/stenographer"
+	colorable "github.com/ptcar2009/ginkgo/reporters/stenographer/support/go-colorable"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 const GINKGO_VERSION = config.VERSION

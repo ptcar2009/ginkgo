@@ -32,7 +32,7 @@ var _ = Describe("Watch", func() {
 
 			src, err := ioutil.ReadAll(r)
 			Ω(err).ShouldNot(HaveOccurred())
-			out := strings.ReplaceAll(string(src), "$ROOT_PATH$", "github.com/onsi/ginkgo/integration/"+rootPath)
+			out := strings.ReplaceAll(string(src), "$ROOT_PATH$", "github.com/ptcar2009/ginkgo/integration/"+rootPath)
 			r.Close()
 
 			err = ioutil.WriteFile(filePath, []byte(out), 0666)

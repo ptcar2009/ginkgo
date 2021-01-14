@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/onsi/ginkgo/internal/failer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/ptcar2009/ginkgo/internal/failer"
+	"github.com/ptcar2009/ginkgo/types"
 )
 
 type synchronizedAfterSuiteNode struct {
