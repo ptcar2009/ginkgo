@@ -298,6 +298,11 @@ func Describe(text string, body func()) bool {
 	return true
 }
 
+func Given(text string, body func()) bool {
+	global.Suite.PushContainerNode(text, body, types.FlagTypeNone, codelocation.New(1))
+	return true
+}
+
 //You can focus the tests within a describe block using FDescribe
 func FDescribe(text string, body func()) bool {
 	global.Suite.PushContainerNode(text, body, types.FlagTypeFocused, codelocation.New(1))
@@ -380,6 +385,11 @@ func XWhen(text string, body func()) bool {
 //Ginkgo will normally run It blocks synchronously.  To perform asynchronous tests, pass a
 //function that accepts a Done channel.  When you do this, you can also provide an optional timeout.
 func It(text string, body interface{}, timeout ...float64) bool {
+	global.Suite.PushItNode(text, body, types.FlagTypeNone, codelocation.New(1), parseTimeout(timeout...))
+	return true
+}
+
+func Then(text string, body interface{}, timeout ...float64) bool {
 	global.Suite.PushItNode(text, body, types.FlagTypeNone, codelocation.New(1), parseTimeout(timeout...))
 	return true
 }
