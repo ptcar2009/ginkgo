@@ -337,6 +337,11 @@ func Context(text string, body func()) bool {
 	return true
 }
 
+func Scenario(text string, body func()) bool {
+	global.Suite.PushContainerNode(text, body, types.FlagTypeNone, codelocation.New(1))
+	return true
+}
+
 //You can focus the tests within a describe block using FContext
 func FContext(text string, body func()) bool {
 	global.Suite.PushContainerNode(text, body, types.FlagTypeFocused, codelocation.New(1))
